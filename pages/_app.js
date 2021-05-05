@@ -2,6 +2,7 @@ import "../styles/global.scss";
 
 import altlangs from "./data/altlang.json";
 import App from "next/app";
+import { Banner } from "@ibmdotcom/think-banner";
 import DDO from "./data/DDO.json";
 import { DotcomShell } from "@carbon/ibmdotcom-react";
 import Head from "next/head";
@@ -90,6 +91,7 @@ export default class CarbonForIBMDotcom extends App {
 
           <script src="//1.www.s81c.com/common/stats/ibm-common.js" defer />
         </Head>
+        <Banner />
         <DotcomShell
           mastheadProps={{
             navigation: "default",

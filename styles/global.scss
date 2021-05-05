@@ -3,4 +3,5 @@
 @include carbon--font-face-mono();
 @include carbon--font-face-sans();
 
+@import "@ibmdotcom/think-banner/dist/index.css";
 @import "~@carbon/ibmdotcom-styles/scss/components/dotcom-shell/dotcom-shell";
